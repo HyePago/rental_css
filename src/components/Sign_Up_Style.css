@@ -1,0 +1,320 @@
+body {margin-top:20px;
+    margin-left:30px;
+   font-family:맑은 고딕,돋움,굴림;
+   color:#888888;
+   font-size:8pt;
+  }
+table {
+    border-collapse:collapse;
+    font-size:9pt;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto auto;
+    text-align: center;
+}
+.out_table{
+    margin-top: 28px;
+}
+select {
+    font-size:8pt;
+    font-family:맑은 고딕,돋움,굴림;
+    height:18px
+}
+option {
+    border:#cccccc solid 1px;
+    font-family:돋움,굴림;
+    color:#888888;
+    font-size:8px;}
+input {height:18px;}
+th,td {padding-left:20px;
+    text-align:left;
+    background-repeat:no-repeat;
+    background-position:left;
+    border-bottom:#eeeeee solid 1px;
+}
+#pink_line {margin-left:"0";}
+#member_button {
+    margin-top:10px;
+    text-align:center;
+}
+#mbname,#mbid,#mbpw,#mbpw2,#email_dns,#mbpw3 {
+    width:150px;
+    height:18px;
+}
+#mbjumin_1,#mbjumin_2,#zip_h_1,#zip_h_2 {
+    width:68px;
+    height:18px;
+}
+#addr_h1 {
+    width:350px;
+    height:18px;
+}
+#addr_h2 {
+    width:700px;
+    height:18px;
+}
+#mbpw2 {
+    width:200px;
+    height:18px;
+}
+#cel1,#tel_h2_1,#tel_h2_2 {
+    width:68px;
+}
+#tel_h1 {
+    width:55px;
+}
+
+.sign_up_out_table {
+    margin-top: 52px;   
+    border-collapse:separate;
+    border:solid white 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    background-color: white;
+}
+.sign_up_logo {
+    font-family: 맑은 고딕;
+    font-size: 0.97rem;
+    margin-bottom: 5.3px;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.sign_up_inner_table th{
+    height: 35px;
+    font-size: 0.68rem;
+}
+.sign_up_inner_table input {
+    height: 22.1px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    background-color: white;
+    font-size: 0.72rem;
+}
+.sign_up_inner_table_button {
+    position: relative;
+    padding: 0.35em 0.35em;
+    text-align: center;
+    color: black;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.25);
+    background: white;
+    border: 0;
+    border-bottom: 2px solid rgb(228, 242, 245);
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px rgb(228, 242, 245);
+    box-shadow: inset 0 -2px rgb(228, 242, 245);
+    border-radius: 5px;
+    font-size: 0.58rem;
+    margin-left: 10px;
+}
+.sign_up_inner_table_button:active{
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.sign_up_inner_table_button:hover{
+    background: rgb(236, 240, 240);
+}
+.sign_up_inner_table_button:focus{
+    outline: none;
+}
+.sign_up_button {
+    position: relative;
+    padding: 0.35em 0.6em;
+    font-size: 12.3px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    background: rgb(148, 187, 175);
+    border: 0;
+    border-bottom: 2px solid rgb(114, 172, 123);
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px rgb(114, 172, 123);
+    box-shadow: inset 0 -2px rgb(114, 172, 123);
+    border-radius: 5px;   
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-right: 24.5px;
+}
+.sign_up_button:active{
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.sign_up_button:hover{
+    background: rgb(143, 175, 165);
+}
+.sign_up_button:focus{
+    outline: none;
+}
+.sign_up_finish_button {
+    position: relative;
+    padding: 0.35em 0.6em;
+    font-size: 12.3px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    background: rgb(148, 187, 175);
+    border: 0;
+    border-bottom: 2px solid rgb(114, 172, 123);
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px rgb(114, 172, 123);
+    box-shadow: inset 0 -2px rgb(114, 172, 123);
+    border-radius: 5px;   
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-right: 24.5px;
+}
+.sign_up_finish_button:active{
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.sign_up_finish_button:hover{
+    background: rgb(143, 175, 165);
+}
+.sign_up_finish_button:focus{
+    outline: none;
+}
+.sign_up_phone_select {
+    width: 43.6px;
+    height: 22.1px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.72rem;
+}
+.sign_up_phone_select::-ms-expand{
+    display: none;
+}
+.sign_up_phone_input {
+    width: 64.9px;
+    height: 22.1px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    font-size: 0.72rem;
+}
+.sign_up_license_type_select {
+    width: 64.7px;
+    height: 25.1px;
+    padding-top: 2px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.72rem;
+}
+.sign_up_license_cateogry_select{
+    width: 46.9px;
+    height: 24px;
+    padding-left: 10px;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.72rem;
+}
+.sign_up_license_number_select {
+    width: 46.9px;
+    height: 24px;
+    padding-left: 10px;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.72rem;
+}
+.sign_up_license_number_1 {
+    width: 35.3px;
+    height: 24px;
+    padding-left: 2.8px;
+    padding-right: 2.8px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    font-size: 0.72rem;
+}
+.sign_up_license_number_2 {
+    width: 68.7px;
+    height: 24px;
+    padding-left: 2.6px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    font-size: 0.72rem;
+}
+.sign_up_license_number_3 {
+    width: 35.3px;
+    height: 24px;
+    padding-left: 2.8px;
+    padding-right: 2.8px;
+    vertical-align: middle;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    font-size: 0.72rem;
+}
+.sign_up_date {
+    height: 24px;
+    font-size: 0.63rem;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    text-align: center;
+    font-size: 0.72rem;
+}
+.sign_up_date::-ms-expand{
+    display: none;
+}
